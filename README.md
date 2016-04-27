@@ -57,7 +57,7 @@ Creando la cuenta de cobro e invocando a Datáfono ClipClap para que gestione el
     [cobro addItemWithName:@"Hamburguesa" value:20000 andCount:2];
     
 	//Abriendo Datáfono ClipClap para que gestione el cobro.
-    [CCDBHandler shareInstance] commitPayment:payment];
+    [CCDBHandler shareInstance] commitPayment:cobro];
 
 
 ## BotonDatafono demo app ##
