@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0867B9331CC572BF00DEA49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867B9321CC572BF00DEA49E /* main.m */; };
+		0867B9361CC572BF00DEA49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867B9351CC572BF00DEA49E /* AppDelegate.m */; };
+		0867B9391CC572BF00DEA49E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867B9381CC572BF00DEA49E /* ViewController.m */; };
+		0867B93C1CC572BF00DEA49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0867B93A1CC572BF00DEA49E /* Main.storyboard */; };
+		0867B93E1CC572BF00DEA49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0867B93D1CC572BF00DEA49E /* Assets.xcassets */; };
+		0867B9411CC572BF00DEA49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0867B93F1CC572BF00DEA49E /* LaunchScreen.storyboard */; };
+		088D25441CD1417C00AAA01C /* CCDatafonoButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088D25431CD1417C00AAA01C /* CCDatafonoButton.framework */; };
+		088D25451CD1417C00AAA01C /* CCDatafonoButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 088D25431CD1417C00AAA01C /* CCDatafonoButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08922D291CD13B7400954FF2 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08922D271CD13B7400954FF2 /* ItemCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		084691191CCAD2FA00A7AD74 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				088D25451CD1417C00AAA01C /* CCDatafonoButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0846912B1CCAD51600A7AD74 /* BotonDatafono copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BotonDatafono copy-Info.plist"; path = "/Users/josedavidmantilla/Desktop/BotonDatafono/BotonDatafono copy-Info.plist"; sourceTree = "<absolute>"; };
+		0867B92E1CC572BF00DEA49E /* BotonDatafono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotonDatafono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0867B9321CC572BF00DEA49E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0867B9341CC572BF00DEA49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0867B9351CC572BF00DEA49E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0867B9371CC572BF00DEA49E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0867B9381CC572BF00DEA49E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0867B93B1CC572BF00DEA49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0867B93D1CC572BF00DEA49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0867B9401CC572BF00DEA49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0867B9421CC572BF00DEA49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0867B94B1CC572BF00DEA49E /* BotonDatafonoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonDatafonoTests.m; sourceTree = "<group>"; };
+		0867B94D1CC572BF00DEA49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0867B9561CC572BF00DEA49E /* BotonDatafonoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonDatafonoUITests.m; sourceTree = "<group>"; };
+		0867B9581CC572BF00DEA49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088D25431CD1417C00AAA01C /* CCDatafonoButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCDatafonoButton.framework; path = ../CCDatafonoButton.framework; sourceTree = "<group>"; };
+		08922D271CD13B7400954FF2 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		08922D281CD13B7400954FF2 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0867B92B1CC572BF00DEA49E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088D25441CD1417C00AAA01C /* CCDatafonoButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0867B9251CC572BF00DEA49E = {
+			isa = PBXGroup;
+			children = (
+				088D25431CD1417C00AAA01C /* CCDatafonoButton.framework */,
+				0867B9301CC572BF00DEA49E /* BotonDatafono */,
+				0867B94A1CC572BF00DEA49E /* BotonDatafonoTests */,
+				0867B9551CC572BF00DEA49E /* BotonDatafonoUITests */,
+				0867B92F1CC572BF00DEA49E /* Products */,
+				0846912B1CCAD51600A7AD74 /* BotonDatafono copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		0867B92F1CC572BF00DEA49E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0867B92E1CC572BF00DEA49E /* BotonDatafono.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867B9301CC572BF00DEA49E /* BotonDatafono */ = {
+			isa = PBXGroup;
+			children = (
+				08922D271CD13B7400954FF2 /* ItemCell.m */,
+				08922D281CD13B7400954FF2 /* ItemCell.h */,
+				0867B9341CC572BF00DEA49E /* AppDelegate.h */,
+				0867B9351CC572BF00DEA49E /* AppDelegate.m */,
+				0867B9371CC572BF00DEA49E /* ViewController.h */,
+				0867B9381CC572BF00DEA49E /* ViewController.m */,
+				0867B93A1CC572BF00DEA49E /* Main.storyboard */,
+				0867B93D1CC572BF00DEA49E /* Assets.xcassets */,
+				0867B93F1CC572BF00DEA49E /* LaunchScreen.storyboard */,
+				0867B9421CC572BF00DEA49E /* Info.plist */,
+				0867B9311CC572BF00DEA49E /* Supporting Files */,
+			);
+			path = BotonDatafono;
+			sourceTree = "<group>";
+		};
+		0867B9311CC572BF00DEA49E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0867B9321CC572BF00DEA49E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0867B94A1CC572BF00DEA49E /* BotonDatafonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0867B94B1CC572BF00DEA49E /* BotonDatafonoTests.m */,
+				0867B94D1CC572BF00DEA49E /* Info.plist */,
+			);
+			path = BotonDatafonoTests;
+			sourceTree = "<group>";
+		};
+		0867B9551CC572BF00DEA49E /* BotonDatafonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0867B9561CC572BF00DEA49E /* BotonDatafonoUITests.m */,
+				0867B9581CC572BF00DEA49E /* Info.plist */,
+			);
+			path = BotonDatafonoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0867B92D1CC572BF00DEA49E /* BotonDatafono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0867B95B1CC572BF00DEA49E /* Build configuration list for PBXNativeTarget "BotonDatafono" */;
+			buildPhases = (
+				0867B92A1CC572BF00DEA49E /* Sources */,
+				0867B92B1CC572BF00DEA49E /* Frameworks */,
+				0867B92C1CC572BF00DEA49E /* Resources */,
+				084691191CCAD2FA00A7AD74 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotonDatafono;
+			productName = BotonDatafono;
+			productReference = 0867B92E1CC572BF00DEA49E /* BotonDatafono.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867B9261CC572BF00DEA49E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "José David Mantilla";
+				TargetAttributes = {
+					0867B92D1CC572BF00DEA49E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0867B9291CC572BF00DEA49E /* Build configuration list for PBXProject "BotonDatafono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0867B9251CC572BF00DEA49E;
+			productRefGroup = 0867B92F1CC572BF00DEA49E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0867B92D1CC572BF00DEA49E /* BotonDatafono */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0867B92C1CC572BF00DEA49E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867B9411CC572BF00DEA49E /* LaunchScreen.storyboard in Resources */,
+				0867B93E1CC572BF00DEA49E /* Assets.xcassets in Resources */,
+				0867B93C1CC572BF00DEA49E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0867B92A1CC572BF00DEA49E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08922D291CD13B7400954FF2 /* ItemCell.m in Sources */,
+				0867B9391CC572BF00DEA49E /* ViewController.m in Sources */,
+				0867B9361CC572BF00DEA49E /* AppDelegate.m in Sources */,
+				0867B9331CC572BF00DEA49E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867B93A1CC572BF00DEA49E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867B93B1CC572BF00DEA49E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0867B93F1CC572BF00DEA49E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867B9401CC572BF00DEA49E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0867B9591CC572BF00DEA49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0867B95A1CC572BF00DEA49E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0867B95C1CC572BF00DEA49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BotonDatafono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loquesea.datafono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0867B95D1CC572BF00DEA49E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = BotonDatafono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loquesea.datafono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0867B9291CC572BF00DEA49E /* Build configuration list for PBXProject "BotonDatafono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867B9591CC572BF00DEA49E /* Debug */,
+				0867B95A1CC572BF00DEA49E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0867B95B1CC572BF00DEA49E /* Build configuration list for PBXNativeTarget "BotonDatafono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867B95C1CC572BF00DEA49E /* Debug */,
+				0867B95D1CC572BF00DEA49E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867B9261CC572BF00DEA49E /* Project object */;
+}

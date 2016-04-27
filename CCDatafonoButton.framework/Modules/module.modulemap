@@ -1,0 +1,6 @@
+framework module CCDatafonoButton {
+  umbrella header "CCDatafonoButton.h"
+
+  export *
+  module * { export * }
+}
